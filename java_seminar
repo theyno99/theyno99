@@ -1,0 +1,35 @@
+////task1
+let a=5.99;//shapoon 
+let b= 15.99;//Rubber_Ducks
+let c= 399.99; //Flatscreen_TV
+let d= 11.99;//Monopoly
+let e= 35.99;//Secret_Hitler
+let f= 13.99 ;//Bananagrams  
+function shopping(a,b,c,d,e,f){
+if (a+b+c+d+e+f>50.00){console.log(true);}
+    else;{console.log(false)};}
+shopping(a,f);
+///task2
+function generation(a,b) {if (a==-3 && b=="m") {console.log("great grandfather")}
+    else if (a==-3 && b=="f") {console.log("great grandmother");}
+    else if (a==-2 && b=="m"){console.log("grandfather");}
+    else if (a==-2 && b=="f"){console.log("grandmother");}
+    else if (a==-1 && b=="m"){console.log("father");}
+    else if (a==-1 && b=="f"){console.log("mother");}
+    else if (a==0 ){console.log("me");}
+    else if (a==1 && b=="m"){console.log("son");}
+    else if (a==1 && b=="f"){console.log("daughter");}
+    else if (a==2 && b=="m"){console.log("grandson");}
+    else if (a==2 && b=="f"){console.log("granddaughter");}
+    else if (a==3 && b=="m"){console.log("great grandson");}
+    else if (a==3 && b=="f"){console.log("great granddaughter");}};
+    generation(2,"f");
+    ///task3
+    function waterChecker(a ,b) {const obj2={insanlar:a,su:b}
+    c=obj2.su/(obj2.insanlar*3);
+    if (c==1) {console.log("Sizin su ehtiyatınız 1günə tükənəcək, daha çox alın!")}
+    else if (c<1) {console.log("Sizin su ehtiyatınız 1günden tez tükənəcək, daha çox alın!")}
+    else if (c<14) {console.log("Sizin su ehtiyatınız" + Math.floor(c) + " gune tükənəcək, daha çox alın!")}
+    else if (c>=14) {console.log("Sizin su ehtiyatınız " + Math.floor(c)+ " gune kifayet eder, elave suya ehtiyyac yoxdu!")}    
+    }
+    waterChecker(2 ,3)
